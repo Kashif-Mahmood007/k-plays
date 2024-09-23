@@ -1,0 +1,62 @@
+.contact-section {
+    background: rgba(0,0,0,.7)url('images/hd11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 30px;
+    display: flex;
+    justify-content: flex-start;    
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+.contact-section .top h2,
+.contact-section .top p {
+    color: white;
+    text-shadow: 2px 2px 4px #3e3e3e;
+}
+
+.contact-section .bottom h2,
+.contact-section .bottom p {
+    color: white;
+    text-shadow: 2px 2px 4px #515151;
+}
+
+.top {
+    align-self: flex-start;
+}
+
+.bottom {
+    align-self: flex-end;
+    margin-top: 30px;
+}
+
+.form-section {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+
+}
+
+.form-divider {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #DD0038;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #ff0040;
+    color: white;
+}
+
+
+#isEmpty{
+    padding: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px
+  }
